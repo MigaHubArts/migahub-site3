@@ -1,20 +1,89 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta name="facebook-domain-verification" content="36yallm5akrqvwsx0hrvmga5zf8r9f" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ateliere de artă pentru copii</title>
+  <meta name="facebook-domain-verification" content="36yallm5akrqvwsx0hrvmga5zf8r9f" />
+
+  <!-- SEO -->
+  <title>Atelier modelaj și ceramică pentru copii | MiGa Hub</title>
+  <meta name="description" content="Atelier de modelaj și ceramică pentru copii la MiGa Hub, Buzău. Dezvoltă creativitatea și abilitățile artistice într-un mediu prietenos și plin de culoare.">
+  <link rel="canonical" href="https://migahubarts.github.io/migahub-site3/arte/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Atelier modelaj și ceramică pentru copii – MiGa Hub">
+  <meta property="og:description" content="Atelier de modelaj și ceramică pentru copii la MiGa Hub, Buzău. Dezvoltă creativitatea și abilitățile artistice într-un mediu prietenos și plin de culoare.">
+  <meta property="og:image" content="https://migahubarts.github.io/migahub-site3/arte/cover.jpg">
+  <meta property="og:url" content="https://migahubarts.github.io/migahub-site3/arte/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Atelier modelaj și ceramică pentru copii – MiGa Hub">
+  <meta name="twitter:description" content="Atelier de modelaj și ceramică pentru copii la MiGa Hub, Buzău. Dezvoltă creativitatea și abilitățile artistice într-un mediu prietenos și plin de culoare.">
+  <meta name="twitter:image" content="https://migahubarts.github.io/migahub-site3/arte/cover.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- JSON-LD: Course -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Atelier modelaj și ceramică pentru copii",
+    "description": "Atelier creativ pentru copii, unde se dezvoltă abilități de modelaj și ceramică într-un mediu prietenos și artistic.",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "MiGa Hub Arts & Languages",
+      "url": "https://migahubarts.github.io/migahub-site3/"
+    },
+    "inLanguage": "ro",
+    "url": "https://migahubarts.github.io/migahub-site3/arte/",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Children"
+    },
+    "image": "https://migahubarts.github.io/migahub-site3/arte/cover.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buzău",
+      "addressCountry": "RO"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: Breadcrumbs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Acasă",
+        "item": "https://migahubarts.github.io/migahub-site3/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Arte",
+        "item": "https://migahubarts.github.io/migahub-site3/arte/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Stiluri -->
   <style>
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       background-color: #fafafa;
       color: #333;
     }
-
     header {
       background: #f0eae2;
       padding: 20px;
@@ -24,33 +93,8 @@
       top: 0;
       z-index: 1000;
     }
-
-    header h1, header h2 { margin: 0; }
-
-    header h1:first-of-type {
-      font-family: Georgia, serif;
-      font-weight: bold;
-      font-size: 2rem;
-      line-height: 1.3;
-      color: #000;
-    }
-
-    header h1:nth-of-type(2) {
-      font-family: Georgia, serif;
-      font-weight: normal;
-      font-size: 1.6rem;
-      color: #000;
-    }
-
-    header h2 {
-      font-family: Georgia, serif;
-      font-style: italic;
-      font-weight: normal;
-      font-size: 1.4rem;
-      color: #555;
-      margin-top: 5px;
-    }
-
+    header h1 { font-family: Georgia, serif; font-weight: bold; font-size: 2rem; color: #000; margin: 0.2em 0; }
+    header h2 { font-family: Georgia, serif; font-style: normal font-weight: normal; font-size: 1.4rem; color: #000; margin: 0.2em 0; }
     .header-button {
       text-decoration: none;
       color: #000;
@@ -64,67 +108,44 @@
       display: inline-block;
       margin-top: 5px;
     }
-
-    .header-button:hover {
-      background-color: #008000;
-      color: #fff;
-    }
-
+    .header-button:hover { background-color: #b5724f; color: #fff; }
     nav { margin-top: 10px; }
+nav a {
+  margin: 0 2px; /* apropie butoanele */
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 8px 20px; /* asigură spațiu și rotunjire */
+  border-radius: 8px; /* rotunjire permanentă */
+  background-color: #f0eae2; /* culoare de bază */
+  transition: all 0.3s ease;
+  display: inline-block;
+}
 
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-
-    nav a:hover { color: #008000; }
-
-    section {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 10px 20px;
-      scroll-margin-top: 140px;
-    }
-
-    #acasa {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      padding-top: 2em;
-      gap: 20px;
-    }
-
+nav a:hover {
+  background-color: #b5724f;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px; /* asigură rotunjirea și pe hover */
+}
+    section { max-width: 900px; margin: 0 auto; padding: 10px 20px; scroll-margin-top: 200px; }
+    #acasa { display: flex; flex-wrap: wrap; align-items: center; padding-top: 2em; gap: 20px; }
     #acasa-text { flex: 1; min-width: 250px; }
-
     #acasa img { flex: 0 0 250px; max-width: 100%; border-radius: 8px; }
-
-    h2 { font-size: 1.6rem; margin-bottom: 10px; color: #008000; }
-
+    h2 { font-size: 1rem; margin-bottom: 10px; color: #000; font-family: Georgia, serif; font-weight: bold; }
     p { line-height: 1.6; margin-bottom: 10px; }
-
-    footer {
-      background: #fff;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
-      border-top: 1px solid #eee;
-    }
-
-    @media (max-width: 768px) {
-      #acasa { flex-direction: column; align-items: center; }
-      #acasa img { max-width: 300px; }
-    }
+    footer { background: #fff; text-align: center; padding: 20px; font-size: 0.9rem; color: #777; border-top: 1px solid #eee; }
+    @media (max-width: 768px) { #acasa { flex-direction: column; align-items: center; } #acasa img { max-width: 300px; } }
   </style>
 </head>
 <body>
   <header>
     <h1>Ateliere de artă pentru copii</h1>
-    <h1>- modelare, ceramică, pictură și desen -</h1>
+    <h2>- modelare, ceramică, pictură și desen -</h2>
     <h2>
-      <a href="https://migahubarts.github.io/migahub-site3/" class="header-button">
+      <a href="https://migahubarts.github.io/migahub-site3/" class="header-button" aria-label="Accesează MiGa Hub Arts & Languages">
         ~ MiGa Hub Arts & Languages ~
       </a>
     </h2>
@@ -144,16 +165,13 @@
       <p>Atelierele MiGa Hub sunt dedicate copiilor care vor să își dezvolte imaginația și să se exprime prin artă.</p>
       <p>Descoperă bucuria modelării lutului și tainele ceramicii într-un mediu creativ, prietenos și plin de culoare!</p>
     </div>
-    <img src="Olarit.png" alt="Olarit">
+    <img src="Olarit.png" alt="Copil modelând lut la atelier de olărit" loading="lazy">
   </section>
 
   <section id="despre">
     <h2>Despre mine</h2>
-    <p>Sunt Mihaela Mihalache, sculptoriță și artist vizual, pasionată de frumos și de educația prin artă. 
-      De-a lungul timpului, am creat lucrări inspirate de natură și de emoțiile umane, iar experiența mea artistică 
-      se împletește cu dragostea pentru lucrul cu copiii.</p>
-    <p>Prin aceste cursuri neconvenționale îi ghidez pe cei mici să își descopere și să își exprime propria creativitate 
-      într-o atmosferă relaxată și artistică, de veritabil atelier de creație.</p>
+    <p>Sunt Mihaela Mihalache, sculptoriță și artist vizual, pasionată de frumos și de educația prin artă. De-a lungul timpului, am creat lucrări inspirate de natură și de emoțiile umane, iar experiența mea artistică se împletește cu dragostea pentru lucrul cu copiii.</p>
+    <p>Prin aceste cursuri neconvenționale îi ghidez pe cei mici să își descopere și să își exprime propria creativitate într-o atmosferă relaxată și artistică, de veritabil atelier de creație.</p>
   </section>
 
   <section id="cursuri">
